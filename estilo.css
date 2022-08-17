@@ -1,0 +1,114 @@
+body {
+  font-family: Andale Mono, monospace;
+}
+
+.urn {
+  width: 950px;
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  padding: 0;
+  border: 30px solid rgb(114, 110, 110);
+}
+
+.urn-screen {
+  width: 600px;
+  height: 300px;
+  border-right: 20px solid rgb(114, 110, 110);
+}
+.urn-btns {
+  padding: 30px;
+  width: 100%;
+
+  background-color: black;
+}
+.urn-btns .keyboard {
+  display: flex;
+
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.urn-btns .actions {
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  width: 27%;
+  margin-bottom: 15px;
+  text-align: start;
+  height: 25px;
+  background-color: black;
+  color: white;
+  box-shadow: 1px 1px 1px #000;
+}
+.urn-right {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 400px;
+}
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+}
+.btn-branco {
+  font-style: normal;
+  padding: 10px;
+  font-weight: 600;
+}
+.btn-corrige {
+  background: orangered;
+  font-style: normal;
+  font-weight: 600;
+}
+.btn-confirmar {
+  background: green;
+  font-style: normal;
+  font-weight: 600;
+}
+#inputs {
+  display: flex;
+}
+#numbers {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 11px;
+}
+.number {
+  width: 30px;
+  margin-right: 1px;
+}
+#word_numero {
+  margin-right: 8px;
+}
+h3 {
+  margin-left: 25px;
+}
+#profile {
+  height: 189px;
+  borde: 1px solid red;
+  display: flex;
+  align-self: center;
+}
+
+#nome_politico {
+  margin-top: 60px;
+  margin-left: 8px;
+}
+
+#img_politico {
+  margin-left: 150px;
+}
+img {
+  width: 120px;
+}
+#tipo_politico {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+#img_politico img {
+  border: 5px double rgb(66, 66, 63);
+}
